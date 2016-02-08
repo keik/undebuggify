@@ -1,0 +1,19 @@
+{
+  "name": "undebuggify",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keik/undebuggify.git"
+  },
+  "author": "keik <k4t0.kei@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keik/undebuggify/issues"
+  },
+  "homepage": "https://github.com/keik/undebuggify#readme"
+}
