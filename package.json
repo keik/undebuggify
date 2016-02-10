@@ -1,7 +1,7 @@
 {
   "name": "undebuggify",
   "version": "0.0.0",
-  "description": "",
+  "description": "Browserify transform to remove visionmedia/debug related code using AST.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/keik/undebuggify/issues"
   },
-  "homepage": "https://github.com/keik/undebuggify#readme"
+  "homepage": "https://github.com/keik/undebuggify#readme",
+  "dependencies": {
+    "udebug": "^0.1.1"
+  }
 }
