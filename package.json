@@ -1,6 +1,6 @@
 {
   "name": "undebuggify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Browserify transform to remove visionmedia/debug related code using AST.",
   "main": "index.js",
   "scripts": {
