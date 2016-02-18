@@ -4,7 +4,7 @@
   "description": "Browserify transform to remove visionmedia/debug related code using AST.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,10 @@
   ],
   "dependencies": {
     "udebug": "^0.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "jstify": "^0.14.0",
+    "tape": "^4.4.0"
   }
 }

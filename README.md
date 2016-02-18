@@ -42,6 +42,14 @@ function greet() {
 ```
 
 
+# Test
+
+```
+% npm install
+% npm test
+```
+
+
 # License
 
 MIT (c) keik

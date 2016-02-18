@@ -8,7 +8,8 @@ util.inherits(Undebuggify, stream.Transform)
 
 function Undebuggify(file, opts) {
 
-  if (path.extname(file) === '.json')
+  var exts = ['.js', '.jsx', '.es', '.es6']
+  if (exts.indexOf(path.extname(file)) === -1)
     return stream.PassThrough();
 
   if (!(this instanceof Undebuggify))
