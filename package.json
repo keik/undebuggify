@@ -16,6 +16,13 @@
     "url": "https://github.com/keik/undebuggify/issues"
   },
   "homepage": "https://github.com/keik/undebuggify#readme",
+  "keywords": [
+    "browserify",
+    "browserify-transform",
+    "debug",
+    "log",
+    "logger"
+  ],
   "dependencies": {
     "udebug": "^0.1.1"
   }
