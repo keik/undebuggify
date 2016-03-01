@@ -29,6 +29,7 @@
   "devDependencies": {
     "browserify": "^13.0.0",
     "jstify": "^0.14.0",
-    "tape": "^4.4.0"
+    "tape": "^4.4.0",
+    "underscore": "^1.8.3"
   }
 }
