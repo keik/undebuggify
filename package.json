@@ -4,7 +4,9 @@
   "description": "Browserify transform to remove visionmedia/debug related code using AST.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "lint": "eslint index.js 'test/**/*.js'",
+    "version": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
@@ -25,11 +27,14 @@
   ],
   "dependencies": {
     "convert-source-map": "^1.2.0",
-    "merge-source-map": "^1.0.0",
-    "udebug": "^0.1.1"
+    "merge-source-map": "^1.0.1",
+    "udebug": "^1.0.0"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
+    "coffeeify": "^2.0.1",
+    "debug": "^2.2.0",
+    "eslint": "^2.3.0",
     "jstify": "^0.14.0",
     "tape": "^4.4.0",
     "underscore": "^1.8.3"

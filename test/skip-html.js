@@ -1,13 +1,10 @@
 var test = require('tape'),
-    path = require('path'),
     browserify = require('browserify')
 
 test('skip paring html', function (t) {
-  var b = browserify();
-  b.add(__dirname + '/fixtures/skip-html.js');
-  b.transform('.');
-  b.transform('jstify')
-  b.bundle(function (err, src) {
+  var b = browserify({transform: ['.', 'jstify']})
+  b.add(__dirname + '/fixtures/skip-html.js')
+  b.bundle(function (err) {
     t.error(err)
     t.end()
   })
