@@ -28,7 +28,7 @@
   "dependencies": {
     "convert-source-map": "^1.2.0",
     "merge-source-map": "^1.0.1",
-    "udebug": "^1.0.0"
+    "udebug": "^1.0.1"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
@@ -39,5 +39,10 @@
     "source-map": "^0.5.3",
     "tape": "^4.4.0",
     "underscore": "^1.8.3"
-  }
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "package.json"
+  ]
 }
