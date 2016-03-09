@@ -36,6 +36,7 @@
     "debug": "^2.2.0",
     "eslint": "^2.3.0",
     "jstify": "^0.14.0",
+    "source-map": "^0.5.3",
     "tape": "^4.4.0",
     "underscore": "^1.8.3"
   }
