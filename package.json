@@ -26,14 +26,14 @@
     "logger"
   ],
   "dependencies": {
-    "udebug": "^1.0.1"
+    "udebug": "^1.1.0"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
     "coffeeify": "^2.0.1",
     "convert-source-map": "^1.2.0",
     "debug": "^2.2.0",
-    "eslint": "^2.3.0",
+    "eslint": "^2.4.0",
     "jstify": "^0.14.0",
     "source-map": "^0.5.3",
     "tape": "^4.4.0",
